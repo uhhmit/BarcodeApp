@@ -2,7 +2,7 @@
 //  BarcodeCircle.swift
 //  BarcodeApp
 //
-//  Created by Angelo Karam on 8/12/23.
+//  Created by Angelo Karam and Amit Saini on 8/12/23.
 //
 
 import SwiftUI

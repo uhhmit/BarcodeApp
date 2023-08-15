@@ -18,7 +18,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Text("Barcode App")
+            Text("BarcodeApp")
                 .font(.largeTitle)
                 .foregroundColor(Color.red)
             HStack {
