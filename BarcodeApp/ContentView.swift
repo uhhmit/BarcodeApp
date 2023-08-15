@@ -17,6 +17,26 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
+        VStack {
+            Text("Barcode App")
+                .font(.largeTitle)
+                .foregroundColor(Color.red)
+            HStack {
+                Text("Compare Prices")
+                    .font(.subheadline)
+                Spacer()
+                Text("Save Money")
+                    .font(.subheadline)
+            }
+            VStack {
+                ProfilePictureCircle()
+                BarcodeCircle()
+            }
+            Spacer()
+        }
+        .padding()
+        
+            
         NavigationView {
             List {
                 ForEach(items) { item in

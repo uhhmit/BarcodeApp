@@ -16,6 +16,8 @@
 		B4194F4B2A88540F00F1C133 /* BarcodeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4194F4A2A88540F00F1C133 /* BarcodeAppTests.swift */; };
 		B4194F552A88540F00F1C133 /* BarcodeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4194F542A88540F00F1C133 /* BarcodeAppUITests.swift */; };
 		B4194F572A88540F00F1C133 /* BarcodeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4194F562A88540F00F1C133 /* BarcodeAppUITestsLaunchTests.swift */; };
+		B4194F642A8865A300F1C133 /* BarcodeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4194F632A8865A300F1C133 /* BarcodeCircle.swift */; };
+		B4194F662A88705600F1C133 /* ProfilePictureCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4194F652A88705600F1C133 /* ProfilePictureCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B4194F502A88540F00F1C133 /* BarcodeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4194F542A88540F00F1C133 /* BarcodeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeAppUITests.swift; sourceTree = "<group>"; };
 		B4194F562A88540F00F1C133 /* BarcodeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4194F632A8865A300F1C133 /* BarcodeCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeCircle.swift; sourceTree = "<group>"; };
+		B4194F652A88705600F1C133 /* ProfilePictureCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				B4194F332A88540E00F1C133 /* BarcodeAppApp.swift */,
 				B4194F352A88540E00F1C133 /* ContentView.swift */,
 				B4194F372A88540F00F1C133 /* Assets.xcassets */,
+				B4194F652A88705600F1C133 /* ProfilePictureCircle.swift */,
+				B4194F632A8865A300F1C133 /* BarcodeCircle.swift */,
 				B4194F3C2A88540F00F1C133 /* Persistence.swift */,
 				B4194F412A88540F00F1C133 /* Info.plist */,
 				B4194F3E2A88540F00F1C133 /* BarcodeApp.xcdatamodeld */,
@@ -265,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4194F662A88705600F1C133 /* ProfilePictureCircle.swift in Sources */,
+				B4194F642A8865A300F1C133 /* BarcodeCircle.swift in Sources */,
 				B4194F402A88540F00F1C133 /* BarcodeApp.xcdatamodeld in Sources */,
 				B4194F3D2A88540F00F1C133 /* Persistence.swift in Sources */,
 				B4194F362A88540E00F1C133 /* ContentView.swift in Sources */,
